@@ -33,7 +33,11 @@ git push origin main/feature
 git log # Commit history
 git log --oneline --graph --all # Compact graph view 
 
-5.If the changes are under "Changes" / "Staged Changes"
+5.to revert the changes
+
+git revert hash_id
+
+6.If the changes are under "Changes" / "Staged Changes"
 
 To discard all uncommitted changes and return your files to the last commit:
 
