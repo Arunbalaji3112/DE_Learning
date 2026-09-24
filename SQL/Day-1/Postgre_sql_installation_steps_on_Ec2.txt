@@ -1,0 +1,10 @@
+Postgre sql installation steps on EC2:
+
+  1  sudo dnf install postgresql15 postgresql15-server -y
+  2 psql --version
+  3  sudo postgresql-setup --initdb 
+  4  sudo systemctl start postgresql
+  5  sudo systemctl enable PostgreSQL
+  6  sudo systemctl status PostgreSQL
+  7  sudo -u postgres psql
+  8  \q (to exit from sql and back to EC2 user)
