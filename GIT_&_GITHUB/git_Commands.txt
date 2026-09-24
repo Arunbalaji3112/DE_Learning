@@ -1,0 +1,49 @@
+First time git and git hub configuration via vs code.
+
+A. Software/account required:
+
+1.VS code
+2.Git
+3.Github repo account (username and mail provided here)
+
+B. Steps to Configure git and GitHub:
+
+Run below commands from vs code terminal
+
+1.configure git with GitHub repo(username, mail, mail logged in device are required)
+
+git config --global user.name "xyz"  ( use username used for github repo account)                                                                                    
+git config --global user.email "xyz@gmail.com" ( use mail used for github repo account) 
+
+2. initialize local repo and add remote server
+
+git init
+git remote add origin https://github.com/Arunbalaji3112/DE_Learning.git (or) git clone https://github.com/Arunbalaji3112/DE_Learning.git
+git remote -v 
+
+3.check and push the changes from vs code to GIT repository
+
+git status (to check changed files)
+git add . (or) git add filename (stage changes)
+git commit -m "Add SQL Day 1 learning" (Commit staged changes)
+git push origin main/feature 
+
+4.To see the log history 
+
+git log # Commit history
+git log --oneline --graph --all # Compact graph view 
+
+5.If the changes are under "Changes" / "Staged Changes"
+
+To discard all uncommitted changes and return your files to the last commit:
+
+git restore .
+
+If files are staged :
+
+git restore --staged .
+git restore .
+
+
+  
+
