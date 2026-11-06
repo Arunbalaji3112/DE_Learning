@@ -4,7 +4,7 @@ orders = [101, 102, 103, 102, 104, 105, 102]
 
 
 # 1. Count how many times order ID 102 appears.
-
+print(orders[1])
 count_102=orders.count(102)
 print(count_102)
 # 2. Find the index of the first 102.

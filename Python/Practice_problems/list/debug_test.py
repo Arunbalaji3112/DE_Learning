@@ -2,7 +2,7 @@ def count_occurrences(numbers, target):
     count = 0
 
     for n in numbers:
-        if n == target:
+     if n == target:
             count += 1
 
     return count
