@@ -1,6 +1,5 @@
 # Type                              Example	            Description
 # 1. No parameters, no return	        greet()	        Performs an action
-
 def greet():
     print("Hello, welcome to the Python program!")
 
@@ -11,8 +10,8 @@ def greet(Name):
     print("My name is:",Name)
 
 greet("Arunbalaji")  # Calling the function with a parameter to see the output
-# 3. No parameters, returns value	    get_status()	Produces a result
 
+# 3. No parameters, returns value	    get_status()	Produces a result
 def greet():
     return "I am 25 year old who learning python to become a Data Engineer"
 

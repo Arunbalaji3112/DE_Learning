@@ -13,7 +13,8 @@
 # - Iterate through all elements: O(n)
 # - Sort: O(n log n)
 # - Slice: O(k) time and space
-num = [1, 2, 3, 4, 5]
+num = [1, 2, 3, 4, 5,5] 
+print(num)
 
 #Append an element to the end of the list
 num.append(6)
@@ -32,6 +33,7 @@ num.pop(8)
 print(num)
 
 #index of the first occurrence of a value
+print("a")
 print(num)
 index_find=num.index(9)
 print(index_find)
@@ -39,6 +41,7 @@ num.pop(index_find)
 print(num)
 
 #count the number of occurrences of a value
+print("a")
 print(num.count(9))
 
 #sort the list in ascending order
